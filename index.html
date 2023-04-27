@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Interactive pricing component</title>
-</head>
-<body>
-  <div class="bg">
-    <div class="circle-pattern">
-      <img src="images/pattern-circles.svg" alt="">  
-    </div>
-    <h1>
-      Simple, traffic-based pricing
-    </h1>
-    <p class="sing-up">
-      Sign-up for our 30-day trial. No credit card required. 
-    </p>
-  </div>
-  <div class="main-container">
-    <h2>
-      100K PAGEVIEWS
-    </h2>
-    <div class="slidecontainer">
-      <div class="green-line" id="green-line"></div>
-      <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
-    </div>
-    <div class="price-section">
-      <p class="price">
-        $16.00
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="circle-pattern">
+        <img src="images/pattern-circles.svg" alt="" />
+      </div>
+      <h1>Simple, traffic-based pricing</h1>
+      <p class="sing-up">
+        Sign-up for our 30-day trial. No credit card required.
       </p>
-      <p class="month">/ month</p>
     </div>
-    <div class="biling">
-      <p>Monthly Billing</p>
-      <button class="click">
-        <div class="circle"></div>
-      </button>
-      <p>Yearly Billing</p>
-      <button class="sale">-25%</button> 
+    <div class="main-container">
+      <h2>100K PAGEVIEWS</h2>
+      <div class="slidecontainer">
+        <div class="green-line" id="green-line"></div>
+        <input
+          type="range"
+          min="1"
+          max="5"
+          value="3"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+      <div class="price-section">
+        <p class="price">$16.00</p>
+        <p class="month">/ month</p>
+      </div>
+      <div class="biling">
+        <p>Monthly Billing</p>
+        <button class="click">
+          <div class="circle"></div>
+        </button>
+        <p>Yearly Billing</p>
+        <button class="sale">-25%</button>
+      </div>
+      <div class="line"></div>
+      <div class="footer">
+        <div class="check">
+          <img src="images/icon-check.svg" alt="" />
+          <p>Unlimited websites</p>
+        </div>
+        <div class="check">
+          <img src="images/icon-check.svg" alt="" />
+          <p>100% data ownership</p>
+        </div>
+        <div class="check">
+          <img src="images/icon-check.svg" alt="" />
+          <p>Email reports</p>
+        </div>
+        <button class="trail">Start my trial</button>
+      </div>
     </div>
-    <div class="line"></div>
-    <div class="footer">
-      <div class="check">
-        <img src="images/icon-check.svg" alt="">
-        <p>Unlimited websites</p>
-      </div>
-      <div class="check">
-        <img src="images/icon-check.svg" alt="">
-        <p>100% data ownership </p>
-      </div>
-      <div class="check">
-        <img src="images/icon-check.svg" alt="">
-        <p>Email reports</p>
-      </div>
-      <button class="trail">Start my trial</button>
-    </div>
-  </div>
-  <script src="scripts/index.js"></script>
-</body>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
